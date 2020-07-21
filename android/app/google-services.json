@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1057503981604",
+    "firebase_url": "https://safety-app-c9ff4.firebaseio.com",
+    "project_id": "safety-app-c9ff4",
+    "storage_bucket": "safety-app-c9ff4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1057503981604:android:dbd6ffc606ed821b01e8b1",
+        "android_client_info": {
+          "package_name": "org.codeforiraq.safetyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1057503981604-epg26acdapv7aenu47huonedu0g2n26r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.codeforiraq.safetyapp",
+            "certificate_hash": "5af667d92100f831b3f692bfb8f4be86aec0619f"
+          }
+        },
+        {
+          "client_id": "1057503981604-t3lb0lkhbbl7rhshp733pra18n6fjq3c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5nbBCElDcx4-l8wxJHk5PC8udEAWSbjQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1057503981604-t3lb0lkhbbl7rhshp733pra18n6fjq3c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
