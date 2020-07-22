@@ -86,6 +86,7 @@ flutter:
     - assets/images/marker_small_pic.png
     - assets/images/app_icon.png
     - assets/images/me.jpg
+    - assets/images/code_for_iraq_icon.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

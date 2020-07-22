@@ -10,10 +10,36 @@ class AboutApp extends StatelessWidget {
         padding: EdgeInsets.all(10.0),
         child: ListView(
           children: <Widget>[
-            Padding(
-              padding: EdgeInsets.only(bottom: 10.0, top: 10.0),
-              child: Center(child: Text('Code For Iraq', style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),)),
+
+            Container(
+              padding: EdgeInsets.only(top: 10.0, bottom: 10.0),
+              child: Center(
+                child: Text('Code For Iraq', style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold)),
+              ),
             ),
+
+            Container(
+              padding: EdgeInsets.only(bottom: 10.0),
+              child: Center(
+                child: CircleAvatar(
+                  radius: 60,
+                  backgroundImage: AssetImage('assets/images/code_for_iraq_icon.png'),
+                ),
+              ),
+            ),
+
+
+//            Padding(
+//              padding: EdgeInsets.only(bottom: 10.0, top: 10.0),
+//              child: Center(
+//                  child: Row(
+//                    children: <Widget>[
+//                      Text('Code For Iraq', style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold)),
+//                      Image.asset('assets/images/code_for_iraq_icon.png'),
+//                    ],
+//                  ),
+//              ),
+//            ),
             Text('وهي مبادرة إنسانية غير ربحية تهدف الى خدمة المجتمع عن طريق البرمجة، تعتبر هذه المبادرة مبادرة تعليمية حقيقية ترعى المهتمين بتعلم تصميم وبرمجة تطبيقات الهاتف الجوال ومواقع الانترنت وبرامج الحاسوب والشبكات والاتصالات ونظم تشغيل الحاسوب باستخدام التقنيات مفتوحة المصدر كما توفر لهم جميع الدروس التعليمية اللازمة وبشكل مجاني تماما بل الاهم من ذلك تعتمد على مبدا المواطنة والمشاركة الفاعلة في تأسيس وبناء المجتمع تدعو هذه المبادرة جميع الطلبة والخريجين والهواة والاساتذة الجامعيين والمهتمين مجال البرمجة وتقنيات المعلومات وكذلك الاختصاصات الأخرى السب التطوع والمشاركة الفعلية لأجل الارتقاء بواقع البلد, حيث تعتبر فرصة عظيمة اكتساب الخبرة والمهارة عن طريق تصميم وتنفيذ برامج وتطبيقات خدمية من شأنها خدمة المواطن وذلك ضمن مجاميع عمل نشطة وفعالة يتعاون فيها جميع الافراد كفريق واحد تبادل الآراء والخبرات ويطرح الافكار ليتم مناقشتها وتطبيقها على أرض الواقع, كما تفتح المجال لجميع المواطنين العراقيين ومن جميع الاختصاصات الى المشاركة الفاعلة في هذه المشاريع لرفد الفريق بالخبرات والأفكار والآراء والمقترحات التي من شأنها خدمة المجتمع بأفضل ما يمكن'
             ,style: TextStyle(fontSize: 16),textAlign: TextAlign.right,),
 
