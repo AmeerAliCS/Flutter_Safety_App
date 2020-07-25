@@ -129,7 +129,7 @@ class _AddCasesState extends State<AddCases> {
               errorText: titleValid ? null : 'يجب ان يكون العنوان ما بين 5 الى 15 حرف'
           ),
           style: TextStyle(
-              height: 0.7,
+              height: 1.2,
               color: kGreenColor
           ),
         ),
@@ -140,7 +140,6 @@ class _AddCasesState extends State<AddCases> {
       Directionality(
         textDirection: TextDirection.rtl,
         child: TextFormField(
-          maxLines: 2,
           textAlign: TextAlign.right,
           controller: detailsController,
           keyboardType: TextInputType.emailAddress,
@@ -150,7 +149,7 @@ class _AddCasesState extends State<AddCases> {
               errorText: detailsValid ? null : 'يجب ان تكون التفاصيل ما بين 10 الى 50 حرف'
           ),
           style: TextStyle(
-              height: 0.7,
+              height: 1.2,
               color: kGreenColor
           ),
         ),
@@ -170,7 +169,7 @@ class _AddCasesState extends State<AddCases> {
               errorText: phoneNumberValid ? null : 'يرجى ادخال رقم الموبايل بشكل صحيح'
           ),
           style: TextStyle(
-              height: 0.7,
+              height: 1.2,
               color: kGreenColor
           ),
         ),
@@ -190,7 +189,7 @@ class _AddCasesState extends State<AddCases> {
               errorText: addressValid ? null : 'يجب ان يكون العنوان ما بين 10 الى 30 حرف'
           ),
           style: TextStyle(
-              height: 0.7,
+              height: 1.2,
               color: kGreenColor
           ),
         ),

@@ -1,3 +1,4 @@
+import 'package:bottom_navy_bar/bottom_navy_bar.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:safetyapp/constants.dart';
@@ -46,14 +47,30 @@ class _HomePageState extends State<HomePage> {
         controller: pageController,
         onPageChanged: onPageChanged,
       ),
-      bottomNavigationBar: CupertinoTabBar(
+      bottomNavigationBar: BottomNavyBar(
+        iconSize: 30.0,
+        mainAxisAlignment: MainAxisAlignment.spaceAround,
         backgroundColor: Colors.white,
-        currentIndex: pageIndex,
-        onTap: onTap,
-        activeColor: kGreenColor,
-        items: [
-          BottomNavigationBarItem(icon: Icon(Icons.home, size: 35,)),
-          BottomNavigationBarItem(icon: Icon(Icons.settings, size: 35,)),
+        selectedIndex: pageIndex,
+        onItemSelected: onTap,
+//        currentIndex: pageIndex,
+//        onTap: onTap,
+//        activeColor: kGreenColor,
+        items: <BottomNavyBarItem>[
+          BottomNavyBarItem(
+              activeColor: kGreenColor,
+              inactiveColor: Colors.black45,
+              title: Text('Home'),
+              icon: Icon(Icons.home,)
+          ),
+          BottomNavyBarItem(
+              activeColor: kGreenColor,
+              inactiveColor: Colors.black45,
+              title: Text('Profile'),
+              icon: Icon(Icons.account_circle,)
+          )
+//          BottomNavigationBarItem(icon: Icon(Icons.home, size: 35,)),
+//          BottomNavigationBarItem(icon: Icon(Icons.settings, size: 35,)),
         ],
       )
     );

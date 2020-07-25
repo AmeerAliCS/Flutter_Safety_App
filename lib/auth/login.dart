@@ -102,16 +102,17 @@ class _LoginState extends State<Login> {
   List<Widget> buildInputs(){
     if(formType == FormType.login){
       return[
+
         TextFormField(
           onSaved: (value) => _email = value.trim(),
-//          validator: (value) => value.isEmpty ? 'Email can\'t be empty.' : null,
+          validator: (value) => value.isEmpty ? 'Email can\'t be empty.' : null,
           keyboardType: TextInputType.emailAddress,
           decoration: kTextFieldDecoration.copyWith(
               hintText: 'Enter your email',
               labelText: 'Email'
           ),
           style: TextStyle(
-              height: 0.7,
+              height: 1.2,
               color: kGreenColor
           ),
         ),
@@ -127,7 +128,7 @@ class _LoginState extends State<Login> {
           ),
           obscureText: true,
           style: TextStyle(
-              height: 0.7,
+              height: 1.2,
               color: kGreenColor
           ),
         ),
@@ -221,17 +222,13 @@ class _LoginState extends State<Login> {
           shape:  RoundedRectangleBorder(borderRadius:  BorderRadius.circular(20.0)),
           borderSide: BorderSide(color: kGreenColor),
           child: Container(
-            padding: EdgeInsets.only(top: 12.0, bottom: 12.0, right: 15.0),
+            padding: EdgeInsets.only(top: 12.0, bottom: 12.0),
             child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
-                Expanded(
-                  child: Image.asset('assets/images/google_icon.png', height: 25, width: 40,),
-                ),
-                Expanded(
-                  flex: 2,
-                  child: Text('Login with google', style: TextStyle(fontSize: 18),),
-                ),
+                Image.asset('assets/images/google_icon.png', height: 25, width: 40,),
+                SizedBox(width: 4.0,),
+                Text('Login with google', style: TextStyle(fontSize: 18),),
 
               ],
             ),
