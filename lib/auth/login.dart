@@ -112,7 +112,7 @@ class _LoginState extends State<Login> {
               labelText: 'Email'
           ),
           style: TextStyle(
-              height: 1.2,
+              height: 1.0,
               color: kGreenColor
           ),
         ),
@@ -128,7 +128,7 @@ class _LoginState extends State<Login> {
           ),
           obscureText: true,
           style: TextStyle(
-              height: 1.2,
+              height: 1.0,
               color: kGreenColor
           ),
         ),
@@ -148,7 +148,7 @@ class _LoginState extends State<Login> {
               labelText: 'Name'
           ),
           style: TextStyle(
-              height: 0.7,
+              height: 1.0,
               color: kGreenColor
           ),
         ),
@@ -164,7 +164,7 @@ class _LoginState extends State<Login> {
               labelText: 'Email'
           ),
           style: TextStyle(
-              height: 0.7,
+              height: 1.0,
               color: kGreenColor
           ),
         ),
@@ -190,7 +190,7 @@ class _LoginState extends State<Login> {
           ),
           obscureText: true,
           style: TextStyle(
-              height: 0.7,
+              height: 1.0,
               color: kGreenColor
           ),
         ),

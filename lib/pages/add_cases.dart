@@ -74,7 +74,7 @@ class _AddCasesState extends State<AddCases> {
                     children: <Widget>[
                       Padding(
                         padding: EdgeInsets.only(bottom: 20.0),
-                        child: Text('ادخل التفاصيل التالية', style: TextStyle(fontSize: 40,
+                        child: Text('ادخل التفاصيل التالية', style: TextStyle(fontSize: 30,
                             color: kGreenColor, fontWeight: FontWeight.bold), textAlign: TextAlign.center,
                         ),
                       ),
@@ -129,7 +129,7 @@ class _AddCasesState extends State<AddCases> {
               errorText: titleValid ? null : 'يجب ان يكون العنوان ما بين 5 الى 15 حرف'
           ),
           style: TextStyle(
-              height: 1.2,
+              height: 1.0,
               color: kGreenColor
           ),
         ),
@@ -149,7 +149,7 @@ class _AddCasesState extends State<AddCases> {
               errorText: detailsValid ? null : 'يجب ان تكون التفاصيل ما بين 10 الى 50 حرف'
           ),
           style: TextStyle(
-              height: 1.2,
+              height: 1.0,
               color: kGreenColor
           ),
         ),
@@ -169,7 +169,7 @@ class _AddCasesState extends State<AddCases> {
               errorText: phoneNumberValid ? null : 'يرجى ادخال رقم الموبايل بشكل صحيح'
           ),
           style: TextStyle(
-              height: 1.2,
+              height: 1.0,
               color: kGreenColor
           ),
         ),
@@ -189,7 +189,7 @@ class _AddCasesState extends State<AddCases> {
               errorText: addressValid ? null : 'يجب ان يكون العنوان ما بين 10 الى 30 حرف'
           ),
           style: TextStyle(
-              height: 1.2,
+              height: 1.0,
               color: kGreenColor
           ),
         ),
