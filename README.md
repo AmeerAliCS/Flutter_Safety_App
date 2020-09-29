@@ -1,6 +1,6 @@
 # safetyapp
 
-A new Flutter project.
+all copyrights reserved to code for iraq
 
 ## Getting Started
 
